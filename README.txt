@@ -7,22 +7,11 @@ What is a Tank Game?
  * be in an arena with at least one more enemy tank
  * shoot each other
 
-Flow:
-	1) start game
-	2) spawn in arena
-	3) control tank, shoot eachother -> play game
-	4) whoever gets hit first, loses
-	5) simple result screen
-	6) restart
-	
-ToDo:
-	- Arena
-	- Tank prefab
-	- Projectile prefab
-	- collision detection between projectiles and tanks
-	- gameover functionality
+Current features:
+ * tank controls
+ * ability to shoot another tank
 
-Goals:
-	- tank controls
-	- work with particle effects
-	- blow up an enemy tank
+ToDo:
+- extract settings
+- add an actual end to scene w/ playAgain functionality
+- improve projectile logic
