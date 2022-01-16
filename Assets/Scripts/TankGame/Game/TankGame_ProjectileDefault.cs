@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class TankGame_ProjectileDefault : MonoBehaviour
 {
-    [Header("Projectile Settings")]
+    [Header("Projectile Preferences")]
     [SerializeField] private float movementSpeed = 0.3f;
 
     public GameObject trajectory;
